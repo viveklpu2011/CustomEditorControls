@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CustomControl.MainPage">
+
+    <VerticalStackLayout>
+        <HorizontalStackLayout Spacing="10" Margin="10" HorizontalOptions="CenterAndExpand">
+            <Button Text="Bold" x:Name="btnBold" Clicked="btnBold_Clicked"/>
+            <Button Text="Italic" x:Name="btnitalic" Clicked="btnBold_Clicked"/>
+            <Button Text="Lower Case" x:Name="btnLowerCase" Clicked="btnBold_Clicked"/>
+            <Button Text="Upper Case" x:Name="btnUpperCase" Clicked="btnBold_Clicked"/>
+        </HorizontalStackLayout>
+        <Editor x:Name="cutomeditor" BackgroundColor="LightGray" HeightRequest="100" Margin="10"/>
+    </VerticalStackLayout>
+</ContentPage>
+
